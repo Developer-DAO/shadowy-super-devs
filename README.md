@@ -1,4 +1,4 @@
-This is Shadowy Super Devs NFT project! .
+This is Shadowy Super Devs NFT project!
 
 ## Getting Started
 

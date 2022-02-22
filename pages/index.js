@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Shadow Super Devs!</title>
+        <title>Shadow Super Devs! (lfg)</title>
         <meta name="description" content="Shadow Super Devs NFT's!" />
       </Head>
 

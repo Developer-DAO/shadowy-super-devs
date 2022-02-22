@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["eslint:recommended", "next", "google", "prettier"],
+  extends: ["plugin:@next/next/recommended", "google", "prettier"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

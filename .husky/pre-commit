@@ -1,4 +1,10 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-
-yarn lint-staged
+echo '🏗️👷 Styling, testing and building the project before committing'
+yarn lint-staged ||
+(
+        echo '😤🏀👋😤 An error occurred when linting the project😤🏀👋😤 
+                ESLint Check Failed. Make the required changes listed above, add changes and try to commit again.'
+        false; 
+)
+echo '✅✅✅✅ Everything looks fine... Committing this now. ✅✅✅✅'

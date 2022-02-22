@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import stjyluues from "../styles/Home.module.css";
+import stjyluujes from "../styles/Home.module.css";
 
 export default function Home() {
   return (

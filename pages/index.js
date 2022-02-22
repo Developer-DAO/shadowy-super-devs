@@ -1,13 +1,11 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Shadow Super Devs!</title>
-        <meta name='description' content="Shadow Super Devs NFT's!" />
+        <meta name="description" content="Shadow Super Devs NFT's!" />
       </Head>
 
       <main className={styles.main}>

@@ -3,21 +3,16 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["plugin:@next/next/recommended", "google", "prettier"],
+  extends: ["eslint:recommended", "next", "google", "prettier"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: "latest",
+    ecmaVersion: 6,
     sourceType: "module",
   },
   plugins: ["react"],
   rules: {
     "require-jsdoc": 0,
-  },
-  settings: {
-    react: {
-      version: "latest",
-    },
   },
 };
